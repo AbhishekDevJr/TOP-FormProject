@@ -160,6 +160,11 @@ input {
     top : -2px;
 }
 
+.submit-button button:focus {
+    position : relative;
+    top : 0px;
+}
+
 .form-section3{
     border-top : 2px solid white;
     padding-bottom : 4vh;
