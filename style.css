@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Sofia+Sans+Extra+Condensed&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -52,4 +54,41 @@ body {
 .logo-div h1{
     font-weight : 400;
     font-size : 2.5rem;
+}
+
+.social-links {
+    
+    margin-top : 57.5vh;  
+    display : flex;
+    flex-direction : row;
+    justify-content : space-around;
+    align-items : center;
+    color : white;
+    font-family : Arial,Verdana,sans-serif;
+    font-size : 1.3vh;
+}
+
+.social-links img {
+    width : 2vw;
+    height : 3.5vh
+}
+
+.form-container-div {
+    padding-top : 18vh;
+    padding-bottom : 18vh;
+    padding-left : 5vh;
+    padding-right : 8vw;
+    font-family : 'Sofia Sans Extra Condensed', sans-serif;
+    background-color : white;
+}
+
+.pThick{
+    font-size : 1.4rem;
+    font-weight : 600;
+    letter-spacing : 0.5px;
+    word-spacing : 1.2px;
+} 
+
+form {
+    margin-top : 5vh;
 }
