@@ -142,14 +142,15 @@ input {
 .submit-button button {
     padding-top : 1.2vh;
     padding-bottom : 1.2vh;
-    padding-right : 2.5vw;
-    padding-left : 2.5vw;
-    border-radius : 10px;
+    padding-right : 2.3vw;
+    padding-left : 2.3vw;
+    border-radius : 5px;
     border : none;
     background-color : rgba(0, 0, 0, 0.868);
     color : white;
     font-family : 'Source Sans Pro', sans-serif;
     font-weight : 600;
+    letter-spacing : 0.5px;
 }
 
 .submit-button button:hover {
@@ -197,6 +198,18 @@ input:focus {
 .invalidNew {
     border : 1px solid red;
     border-radius : 2px;
+}
+
+.validNew {
+    border : 1px solid rgb(3, 230, 3);
+    border-radius : 2px;
+}
+
+.error-msg {
+    font-family : 'Source Sans Pro', sans-serif;
+    font-size : 0.7rem;
+    color : red;
+    font-weight : 600;
 }
 
 
